@@ -34,3 +34,23 @@ document.addEventListener('scroll', handleScroll);
 
 // Initial check on page load
 document.addEventListener('DOMContentLoaded', handleScroll);
+
+//TAB COLOR
+// Set the tab color to your desired hexadecimal color code
+function setTabColor(color) {
+    var metaTag = document.querySelector('meta[name="theme-color"]');
+
+    if (metaTag) {
+        // Update existing meta tag
+        metaTag.setAttribute('content', color);
+    } else {
+        // Create a new meta tag if it doesn't exist
+        var newMetaTag = document.createElement('meta');
+        newMetaTag.name = 'theme-color';
+        newMetaTag.content = color;
+        document.head.appendChild(newMetaTag);
+    }
+}
+
+// Example: Set tab color to blue
+setTabColor('#000');
