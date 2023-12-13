@@ -131,10 +131,7 @@ header {
     opacity: 1;
     transform: translateY(0);
 }
-.img{
-    border-radius: 25px;
-    margin:5px;
-}
+
 
 /* Style the footer */
 footer {
