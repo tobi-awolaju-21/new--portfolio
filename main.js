@@ -15,17 +15,20 @@ function setTabColor(color) {
     }
 }
 
-// Example: Set tab color to blue
-setTabColor('#000');
+
 
 
 
 function toggleMenu() {
     document.getElementById("slide-out-menu").style.width = "100%";
+    // Example: Set tab color to blue
+setTabColor('#4000FF');
 }
 
 function closeMenu() {
     document.getElementById("slide-out-menu").style.width = "0";
+    // Example: Set tab color to blue
+setTabColor('#fff');
 }
 
 
