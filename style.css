@@ -1,0 +1,159 @@
+/* Reset some default styles */
+body,
+h3,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color and text color */
+body {
+    background-color: #ffffff;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-size: medium;
+}
+p{
+   font-size:small; 
+   color: #0000009a;
+}
+p2{
+    font-size:medium; 
+    color: #0000009a;
+ }
+
+
+/* Add some padding and center the content */
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+};
+
+/* Style the header */
+
+header {
+    height: 30px;
+    background-color: #ffffff8a;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-icon {
+    cursor: pointer;
+}
+
+.right-content {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.left-content {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 36px;
+}
+
+.slide-out-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(64, 0, 255, 0.816);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    color: white;
+}
+
+.slide-out-menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+.slide-out-menu a:hover {
+    color: #f1f1f1ad;
+    text-decoration: none;
+}
+
+.slide-out-menu .close-btn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+    .slide-out-menu {padding-top: 15px;}
+    .slide-out-menu a {font-size: 18px;}
+}
+
+
+
+
+.card-section {
+    border-width: 1px;
+    border-style: solid;
+    border-image: linear-gradient(to bottom, #ffffff00, #00000074); /* Adjust the gradient colors */
+    border-image-slice: 1;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.096);
+    padding: 20px;
+    margin: 50px 0;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+
+}
+
+.card-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+.img{
+    border-radius: 25px;
+    margin:5px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #ffffff88;
+    color: #000000;
+    text-align: center;
+    padding: 10px;
+    margin-left: -20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Add some styling for links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
