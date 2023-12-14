@@ -29,7 +29,7 @@ p2{
 /* Add some padding and center the content */
 main {
     max-width: 800px;
-    margin: 20px auto;
+
     padding: 20px;
     text-align: center;
 }
