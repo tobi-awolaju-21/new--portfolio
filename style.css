@@ -114,6 +114,7 @@ header {
 
 
 .card-section {
+    height: ;
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(to bottom, #ffffff00, #00000074); /* Adjust the gradient colors */
