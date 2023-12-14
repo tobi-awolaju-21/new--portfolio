@@ -173,6 +173,8 @@ a:hover {
     color: rgb(0, 0, 0); /* Set the inner text color to white */
     margin: 4PX;
     display: flex;
+    position: relative;
+    top:50px;
 }
 
   @keyframes marquee {
@@ -184,6 +186,12 @@ a:hover {
     }
   }
 
-
-
-  
+.image{
+border:#0000004f;
+border-radius: 10px;
+height:80px;
+width:80px;
+margin:10px;
+position: relative;
+top:-40px;
+}
