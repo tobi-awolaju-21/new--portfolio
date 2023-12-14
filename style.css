@@ -32,13 +32,15 @@ main {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-};
+}
 
 /* Style the header */
 
 header {
-    height: 30px;
-    background-color: #ffffff8a;
+    position: sticky;
+    top: 0;
+    height:35px;
+    background-color: #ffffff00;
     color: #333;
     text-align: center;
     padding: 10px;
@@ -46,6 +48,7 @@ header {
 }
 
 .header-content {
+    height:35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -114,7 +117,6 @@ header {
 
 
 .card-section {
-    height: ;
     border-width: 1px;
     border-style: solid;
     border-image: linear-gradient(to bottom, #ffffff00, #00000074); /* Adjust the gradient colors */
